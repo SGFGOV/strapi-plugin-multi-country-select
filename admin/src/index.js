@@ -28,7 +28,7 @@ export default {
             sectionTitle: null,
             items: [
               {
-                name: 'extra-options',
+                name: 'options.extra-options',
                 type: 'textarea-enum',
                 intlLabel: {
                   id: getTrad('multi-country-select.extra-options.label'),
@@ -55,7 +55,7 @@ export default {
             },
             items: [
               {
-                name: 'required',
+                name: 'options.required',
                 type: 'checkbox',
                 intlLabel: {
                   id: 'form.attribute.item.requiredField',
